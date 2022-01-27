@@ -11,7 +11,7 @@ The contents of this repository is licensed under Apache License Version 2.0 as 
 The easiest way to do this is to run the following (docker container size roughly 139MB):
 
 ``` bash
-docker build -t indonesian-treetagger:1.0.0 https://github.com/UCREL/TreeTagger-Docker-Build.git#main
+docker build -t indonesian-treetagger:1.0.0 https://github.com/UCREL/Indonesian-TreeTagger-Docker-Build.git#main
 ```
 
 ## Run the docker container
