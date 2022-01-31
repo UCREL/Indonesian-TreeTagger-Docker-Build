@@ -4,7 +4,7 @@ Docker file to build the [TreeTagger](https://www.cis.lmu.de/~schmid/tools/TreeT
 
 ## License
 
-The contents of this repository is licensed under Apache License Version 2.0 as stated within the [LICENSE file](./LICENSE). **HOWEVER** by building this [Docker file](./dockerfile) you are implicitly agreeing to the [TreeTagger license](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/Tagger-Licence) as you are downloading and using the TreeTagger code when building and running this docker container.
+The contents of this repository is licensed under Apache License Version 2.0 as stated within the [LICENSE file](./LICENSE). **HOWEVER** by building this [Docker file](./dockerfile) you are implicitly agreeing to the [TreeTagger license](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/Tagger-Licence) as you are downloading and using the TreeTagger code when building and running this docker container. Part of the TreeTagger license stops you from re-distributing the TreeTagger code, therefore please do not upload your built docker container to a registry like [Docker Hub](https://hub.docker.com/).
 
 ## Build the docker container
 
