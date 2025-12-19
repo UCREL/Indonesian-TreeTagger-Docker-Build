@@ -10,7 +10,7 @@ RUN groupadd -r treetagger && useradd -r --create-home -g treetagger treetagger
 USER treetagger
 WORKDIR /home/treetagger
 
-RUN wget -O "tree-tagger-linux-3.2.4.tar.gz" "https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tree-tagger-linux-3.2.4.tar.gz" \
+RUN wget -O "tree-tagger-linux-3.2.4.tar.gz" "https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tree-tagger-linux-3.2.5.tar.gz" \
     && wget -O "tagger-scripts.tar.gz" "https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tagger-scripts.tar.gz" \
     && wget -O "install-tagger.sh" "https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/install-tagger.sh" \
     && wget -O "indonesian.par.gz" "https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/indonesian.par.gz" \
